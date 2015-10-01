@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myandroid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_margin">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/bg_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="更多"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <com.example.guan.more.MyView
+        android:id="@+id/more1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        myandroid:iconMore="@mipmap/bg_customer"
+        myandroid:iconRight="@mipmap/bg_right"
+        myandroid:textCustomer="联系客服" />
+
+    <com.example.guan.more.MyView
+        android:id="@+id/more2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        myandroid:iconMore="@mipmap/bg_problem"
+        myandroid:iconRight="@mipmap/bg_right"
+        myandroid:textCustomer="常见问题" />
+
+    <com.example.guan.more.MyView
+        android:id="@+id/more3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        myandroid:iconMore="@mipmap/bg_service"
+        myandroid:iconRight="@mipmap/bg_right"
+        myandroid:textCustomer="服务范围" />
+
+    <com.example.guan.more.MyView
+        android:id="@+id/more4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        myandroid:iconMore="@mipmap/bg_about"
+        myandroid:iconRight="@mipmap/bg_right"
+        myandroid:textCustomer="关于我们" />
+
+    <com.example.guan.more.MyView
+        android:id="@+id/more5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        myandroid:iconMore="@mipmap/bg_user"
+        myandroid:iconRight="@mipmap/bg_right"
+        myandroid:textCustomer="用户协议" />
+
+    <com.example.guan.more.MyView
+        android:id="@+id/more6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        myandroid:iconMore="@mipmap/bg_feedback"
+        myandroid:iconRight="@mipmap/bg_right"
+        myandroid:textCustomer="意见反馈" />
+
+</LinearLayout>
